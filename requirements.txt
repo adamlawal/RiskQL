@@ -1,0 +1,17 @@
+# RiskQL — Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# The data generator (src/generate_data.py) uses only the standard library, so
+# it runs with none of these installed. These are for the analysis notebook.
+
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+
+# Jupyter (to run notebooks/risk_analysis.ipynb)
+jupyter>=1.0
+notebook>=7.0
+nbconvert>=7.0

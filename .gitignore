@@ -1,1 +1,24 @@
+# Secrets — never commit credentials
 .env
+
+# Scratch SQL
+*t.sql
+
+# Generated synthetic CSVs (reproduce with: python src/generate_data.py)
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Generated analysis scratch (the written report is committed)
+reports/_sql_output.txt
+reports/_metrics.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

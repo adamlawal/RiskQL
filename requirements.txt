@@ -1,0 +1,17 @@
+# RiskQL Python dependencies
+# Install:  pip install -r requirements.txt
+#
+# src/generate_data.py uses only the standard library and does not need these.
+
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.7
+seaborn>=0.12
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+jupyter>=1.0
+notebook>=7.0
+nbconvert>=7.0
+jupyter_core>=5.0
+nbformat>=5.0
